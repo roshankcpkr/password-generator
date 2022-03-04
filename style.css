@@ -1,13 +1,53 @@
 *{
     box-sizing: border-box;
 }
+.modes{
+    width: 100px;
+    height: 50px;
+    background-color:rgb(221, 209, 209);
+    border: 1px solid rgb(4, 4, 80);
+    margin-left: auto;
+    margin-right: 2em;
+    border-radius: 20px;
+    padding: 0.2em;
+}
+.modedon{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(36, 34, 34);
+    
+    border: 1px solid rgb(2, 2, 43);
+    margin-left: auto;
+    margin-right: 2em;
+    border-radius: 20px;
+    padding: 0.2em;
+    box-shadow: 0px 0px 10px rgb(15, 15, 15);
+}
+.dar{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgb(223, 219, 219);
+    box-shadow: 0px 0px 10px rgb(168, 166, 166);
+}
+.whi{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgb(8, 8, 8);
+    box-shadow: 0px 0px 10px rgb(59, 56, 56);
+    margin-left: auto;
+}
+
 body{
     margin: 0;
     padding: 0;
     background: #1C1C1C;
     min-height: 100vh;
     display: grid;
-    place-content: center;
+    align-content: space-evenly;
     font-size: 16px;
 }
 main{
@@ -108,3 +148,9 @@ i:active{
     font-weight: bold;
     font-size: 1.5em;
 }
+.whitemode{
+    background-color: #ECFDF5;
+    }
+    .darkmode{
+        color: rgb(3, 12, 32);
+    }

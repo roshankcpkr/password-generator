@@ -30,7 +30,6 @@ function generator(){
 
     }
    
-
 }
 function copypass1(){
         var copied = document.getElementById('p-1');
@@ -58,4 +57,19 @@ function copypass4(){
     copied.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(copied.value);
 
+}
+function toggles(){
+   let togglebutton = document.querySelector('.modes');
+   togglebutton.classList.toggle('modedon');
+   document.querySelector('.dar').classList.toggle('whi')
+   let bodychange = document.getElementsByTagName("MAIN")[0];
+   bodychange.classList.toggle('whitemode')
+   document.getElementsByTagName("H1")[0].classList.toggle('darkmode');
+  let sub= document.querySelector('.sub-text')
+  sub.classList.toggle('darkmode');
+   document.querySelector('.info').classList.toggle('darkmode');
+   let iconDark = document.querySelectorAll('.far')
+   iconDark.forEach((icons)=>{
+    icons.classList.toggle('darkmode');
+   })
 }
