@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da4888c26e.js" crossorigin="anonymous"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <main>
+    <h1>Generator a <span>random password</span></h1>
+    <p class="sub-text">Never use an insecure password again</p>
+    <div class="button-box">
+    <button class="btn" onclick="generator()"><img src="">Generate passwords</button>
+    <input type="number" class="select-range" min="8" max="30" placeholder="range">
+    </div>
+    <div class="pass-show">
+       <input class="pass-box" id="p-1" type="text" onclick="copypass1()" disabled>
+       <label for="p-1"><i class="far fa-copy" onclick="copypass1()"></i></label>
+       <input class="pass-box" id="p-2" type="text" onclick="copypass2()" disabled>
+       <label for="p-2"><i class="far fa-copy" onclick="copypass2()"></i></label>
+       <input class="pass-box" id="p-3" type="text" onclick="copypass3()" disabled>
+       <label for="p-3"><i class="far fa-copy" onclick="copypass3()"></i></label>
+       <input class="pass-box" id="p-4" type="text" onclick="copypass4()" disabled>
+       <label for="p-4"><i class="far fa-copy" onclick="copypass4()" ></i></label>
+    </div>
+    <p class="info"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
