@@ -6,12 +6,11 @@ body{
     padding: 0;
     background: #1C1C1C;
     min-height: 100vh;
-    display: grid;
     font-size: 16px;
 }
 header{
     width: fit-content;
-    margin-top: 1.5em;
+    margin: 1.5em 1em;
 }
 .modes{
     width: 100px;
