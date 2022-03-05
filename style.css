@@ -10,8 +10,7 @@ body{
     align-content: space-around;
     font-size: 16px;
     grid-template-areas: " . . h"
-                         " . b ."
-                         " . . .";
+                         " . b .";
 }
 header{
     grid-area: h;
@@ -59,7 +58,6 @@ main{
     max-width: 600px;
     width: 90%;
     margin: 0 auto;
-    grid-area: b;
 }
 .sub-text{
     color: rgb(209, 203, 203);
